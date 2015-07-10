@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* @package    KathirVel_ACFHelpers
+* @author     Kathir Vel (vkathirvel@gmail.com)
+* @copyright   Copyright (c) 2015 Kathir Vel
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<config>
+
+    <modules>
+        <KathirVel_ACFHelpers>
+            <version>0.1.0</version>
+        </KathirVel_ACFHelpers>
+    </modules>
+
+    <frontend>
+
+        <translate>
+            <modules>
+                <KathirVel_ACFHelpers>
+                    <files>
+                        <default>KathirVel_ACFHelpers.csv</default>
+                    </files>
+                </KathirVel_ACFHelpers>
+            </modules>
+        </translate>
+
+    </frontend>
+
+    <adminhtml>
+
+        <translate>
+            <modules>
+                <KathirVel_ACFHelpers>
+                    <files>
+                        <default>KathirVel_ACFHelpers.csv</default>
+                    </files>
+                </KathirVel_ACFHelpers>
+            </modules>
+        </translate>
+
+    </adminhtml>
+
+    <global>
+
+        <blocks>
+            <acfhelpers>
+                <class>KathirVel_ACFHelpers_Block</class>
+            </acfhelpers>
+        </blocks>
+
+        <helpers>
+            <acfhelpers>
+                <class>KathirVel_ACFHelpers_Helper</class>
+            </acfhelpers>
+        </helpers>
+
+        <models>
+            <acfhelpers>
+                <class>KathirVel_ACFHelpers_Model</class>
+            </acfhelpers>
+        </models>
+
+    </global>
+    
+</config>
